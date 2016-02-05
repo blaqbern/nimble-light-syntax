@@ -1,17 +1,36 @@
 .source.json {
-  .string {
-    color: @special;
-  }
-  .meta.structure {
-    .punctuation.separator {
-        color: black;
+  .meta.structure.dictionary {
+    .string {
+      color: @string;
+    }
+    .punctuation.definition {
+      color: @string-dark;
+      &.dictionary,
+      &.array {
+        color: @foreground;
       }
-  }
-  .punctuation.definition {
-    color: @special-dark;
-    &.dictionary,
-    &.array {
-      color: black;
+    }
+
+    .dictionary.value {
+      .string {
+        color: @keyword-alt;
+        .punctuation.definition {
+          color: @keyword-alt-dark;
+        }
+      }
+      .dictionary {
+        .string {
+          color: @string;
+          .punctuation.definition {
+            color: @string-dark;
+          }
+        }
+        .dictionary.value {
+          .string {
+            color: @keyword-alt;
+          }
+        }
+      }
     }
   }
 }

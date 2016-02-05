@@ -6,12 +6,16 @@
       color: @keyword;
     }
   }
-  .punctuation.definition {
-    &.entity {
-      color: @string;
+  .entity,
+  .html.elements {
+    color: @keyword-alt;
+    &.punctuation.definition {
+      color: @special;
     }
+  }
+  .punctuation.definition {
     &.constant {
-      color: green;
+      color: @string-dark;
     }
   }
   .constant {

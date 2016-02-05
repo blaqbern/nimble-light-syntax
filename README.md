@@ -1,5 +1,15 @@
 # nimble-light-syntax theme
 
-A short description of your theme.
+A unique syntax theme that, despite its funky color palette, is actually quite comfortable to work in, even for long sessions.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Optimized for JavaScript, HTML, CSS, JSON and gfm. CoffeeScript and Ruby should also be good, but I've haven't tested them very extensively just yet.
+
+Font in the screenshots is Mozilla's terrific [Fira Mono](https://mozilla.github.io/Fira/). It's included in [braver](atom.io/users/braver)'s [fonts](atom.io/packages/fonts) package.
+
+I think this theme looks really great with the One Light UI theme that ships with Atom.
+
+![js-screenshot](./js.png)
+
+![gfm-screenshot](./gfm.png)
+
+Thanks for stopping by!

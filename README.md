@@ -8,8 +8,8 @@ Font in the screenshots is Mozilla's terrific [Fira Mono](https://mozilla.github
 
 I think this theme looks really great with the One Light UI theme that ships with Atom.
 
-![js-screenshot](./js.png)
+![js-screenshot](https://github.com/blaqbern/nimble-light-syntax/blob/master/js.png?raw=true)
 
-![gfm-screenshot](./gfm.png)
+![gfm-screenshot](https://github.com/blaqbern/nimble-light-syntax/blob/master/gfm.png?raw=true)
 
 Thanks for stopping by!

@@ -1,11 +1,33 @@
 .source.js {
-  .string.template {
-    .embedded {
-      color: @string-dark;
+  .meta {
+    .keyword.control,
+    .variable.default {
+      color: @special;
+    }
+
+    &.method-call {
+      .entity.name.function {
+        color: @foreground;
+      }
     }
   }
-  .keyword.control,
+
   .variable.default {
-    color: @special;
+    color: @keyword-alt;
+  }
+
+  .storage {
+    color: @keyword;
+  }
+
+  .string.template {
+    .embedded {
+      &, &.punctuation,
+      .constant,
+      .variable,
+      .keyword.operator {
+        color: @string-dark;
+      }
+    }
   }
 }
